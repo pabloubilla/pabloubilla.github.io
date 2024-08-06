@@ -1,19 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-### Hi there! 👋
+ Hi there! 🐧
 
 I'm Pablo Ubilla Pavez, currently pursuing an MSc in Ecology and Data Science at University College London (UCL) for the 2023-2024 academic year. Before moving to London, I completed a Master in Operations Management and a Professional Degree in Industrial Engineering at the University of Chile.
 
 My academic journey is deeply intertwined with my passion for data-driven solutions to ecological and operational challenges. At UCL, I'm exploring advanced clustering techniques to understand biodiversity better. Back in Chile, my Master's thesis focused on using polynomial approximations to solve Ecological Inference problems in elections.
 
-When I'm not buried in data, I enjoy playing music or bouldering. 
+When I'm not buried in data, I enjoy playing music and bouldering. 
 
 ---
 **Contact:** pablo.pavez.23@ucl.ac.uk
