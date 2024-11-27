@@ -4,6 +4,22 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+
+{% include base_path %}
+
+<h2>Teaching Experience</h2>
+
+<ul>
+  {% for post in site.teaching reversed %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <br>
+      <small>{{ post.venue }} - {{ post.date | date: "%B %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+
 <!-- 
 ## Teaching Experience
 
