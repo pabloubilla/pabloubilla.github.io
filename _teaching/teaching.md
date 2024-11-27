@@ -1,16 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching experience"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+permalink: /teaching/teaching_experience
+venue: "All uNIVERSITIES"
+date: 2024-01-01
 location: "City, Country"
 ---
 
-## Teaching Experience
-
-### Teaching Roles
 
 #### University College London
 - **MSc Computational Finance**
