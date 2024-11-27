@@ -1,11 +1,11 @@
 ---
 title: "Teaching experience"
 collection: teaching
-type: "Undergraduate course"
+#type: "Undergraduate course"
 permalink: /teaching/teaching_experience
-venue: "All uNIVERSITIES"
-date: 2024-01-01
-location: "City, Country"
+# venue: "All uNIVERSITIES"
+#date: 2024-01-01
+#location: "City, Country"
 ---
 
 
