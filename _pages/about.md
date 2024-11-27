@@ -9,16 +9,15 @@ redirect_from:
 
  Hi there! 🐧
 
-I'm Pablo Ubilla Pavez, currently pursuing an MSc in Ecology and Data Science at University College London (UCL) for the 2023-2024 academic year. Before moving to London, I completed a Master in Operations Management and a Professional Degree in Industrial Engineering at the University of Chile.
+I'm Pablo Ubilla Pavez, I recently graduated with an MSc in Ecology and Data Science at University College London (UCL) for the 2023-2024 academic year. Before this, I completed a Master's in Operations Management and a Professional Degree in Industrial Engineering at the University of Chile.
 
-My academic journey is deeply intertwined with my passion for data-driven solutions to ecological and operational challenges. At UCL, I'm exploring advanced clustering techniques to understand biodiversity better. Back in Chile, my Master's thesis focused on using polynomial approximations to solve Ecological Inference problems in elections.
+My academic journey is deeply intertwined with my passion for data-driven solutions to ecological and operational challenges. At UCL, I explored clustering techniques to understand tree biodiversity better. Back in Chile, my Master's thesis focused on using polynomial approximations to solve the Ecological Inference problem applied to Chilean elections.
+
+I am currently looking for PhD opportunities. My main interests are in machine learning, operations research, and statistics; and their application to different domains like ecology, sustainability, and climate change.
 
 When I'm not buried in data, I enjoy playing music and bouldering. 
 
 ---
-**Contact:** pablo.pavez.23@ucl.ac.uk
-**Location:** London, Newham
-
 
 
 <!-- ---
