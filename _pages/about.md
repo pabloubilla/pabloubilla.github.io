@@ -27,10 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! This is Pablo here.
+I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the [EVERGREEN group](https://team.inria.fr/evergreen/) at [Inria Montpellier](https://www.inria.fr/en/centre-inria-montpellier).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m broadly interested in machine learning and operations research, especially when applied to problems in ecology, society, and conservation — and other interesting challenges that might come my way.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before this, I completed an MSc in *Ecology and Data Science* at [University College London (UCL)](https://www.ucl.ac.uk) (2024). Earlier, I earned a Master's in *Operations Management* (2023) and a Professional Degree in *Industrial Engineering* from the [University of Chile](https://www.uchile.cl).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+When I’m not working, I enjoy playing music and bouldering.
+
+Feel free to reach out, check out my [publications](/publications/) (yet to come), or connect via the links below.
