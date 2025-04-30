@@ -27,12 +27,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the [EVERGREEN group](https://team.inria.fr/evergreen/) at [Inria Montpellier](https://www.inria.fr/en/centre-inria-montpellier).
+I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the
+[EVERGREEN group](https://team.inria.fr/evergreen/) at
+[Inria Montpellier](https://www.inria.fr/en/centre-inria-montpellier).
 
-I’m broadly interested in machine learning and operations research, especially when applied to problems in ecology, society, and conservation — and other interesting challenges that might come my way.
+I’m broadly interested in machine learning and operations research, especially
+when applied to problems in ecology, society, and conservation — and other
+interesting challenges that might come my way.
 
-Before this, I completed an MSc in *Ecology and Data Science* at [University College London (UCL)](https://www.ucl.ac.uk) (2024). Earlier, I earned a Master's in *Operations Management* (2023) and a Professional Degree in *Industrial Engineering* from the [University of Chile](https://www.uchile.cl).
+Before this, I completed an MSc in _Ecology and Data Science_ at
+[University College London (UCL)](https://www.ucl.ac.uk) (2024). Earlier, I
+earned a Master's in _Operations Management_ (2023) and a Professional Degree in
+_Industrial Engineering_ from the [University of Chile](https://www.uchile.cl).
 
 When I’m not working, I enjoy playing music and bouldering.
 
-Feel free to reach out, check out my [publications](/publications/) (yet to come), or connect via the links below.
+Feel free to reach out, check out my [publications](/publications/) (yet to
+come), or connect via the links below.
