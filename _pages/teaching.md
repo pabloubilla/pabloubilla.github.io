@@ -9,12 +9,14 @@ nav_order: 6
 
 ## Teaching Experience
 
-\*Term season may vary depending on the hemisphere.
+*Term season may vary depending on the hemisphere.*
+
+---
 
 ### University College London
 
 **Postgraduate Teaching Assistant** (2023–2024)  
-- *MSc Computational Finance:*  
+- **MSc Computational Finance:**  
   - Financial Engineering (Fall 2023)  
   - Applied Computational Finance (Spring 2024)
 
@@ -23,7 +25,7 @@ nav_order: 6
 ### Universidad de Chile
 
 **Teaching Assistant** (2020–2023)  
-- *Industrial Engineering:*  
+- **Industrial Engineering:**  
   - Modelling and Optimization (Fall 2023, Fall 2020)  
   - Decisions Under Uncertainty (Spring 2022, Spring 2021)  
   - Game Theory and Strategy (Spring 2021)  
@@ -31,11 +33,11 @@ nav_order: 6
   - Operations Research (Fall 2021, Spring 2020)
 
 **Exam Assistant** (2019–2022)  
-- *Industrial Engineering:*  
+- **Industrial Engineering:**  
   - Probabilities (Fall 2022)  
   - Information Engineering (Fall 2022)  
   - Modelling and Optimization (Spring 2019)  
-- *Mathematics Engineering:*  
+- **Mathematics Engineering:**  
   - Introduction to Calculus (Fall 2020)  
   - Introduction to Algebra (Spring 2019)  
   - Probabilities and Statistics (Fall 2019)
@@ -45,7 +47,7 @@ nav_order: 6
 ### Universidad Finis Terrae
 
 **Instructor** (2023)  
-- *Industrial Engineering:*  
+- **Industrial Engineering:**  
   - Stochastic Models (Fall 2023)
 
 ---
@@ -53,5 +55,5 @@ nav_order: 6
 ### Universidad Adolfo Ibáñez
 
 **Teaching Assistant** (2021–2022)  
-- *Industrial Engineering:*  
+- **Industrial Engineering:**  
   - Operations Research (Spring 2021, Summer 2022)
