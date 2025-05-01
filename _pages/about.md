@@ -26,7 +26,7 @@ I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the
 
 Hello! I'm Pablo.
 
-I'm broadly interested in machine learning, statistics, and operations research. Most of my work has been in related to ecology, society, and political elections. I'm also open to other interesting applications, as well as the more theoretical aspects of these topics.
+I'm broadly interested in machine learning, statistics, and operations research. I'm particularly interested on applications to ecology and biodiversity, but I have also worked on problems related to vehicle routing, political elections, surveys, and pricing. I'm also open to other interesting applications, as well as the more theoretical aspects of these topics.
 
 I completed an MSc in Ecology & Data Science at
 [University College London (UCL)](https://www.ucl.ac.uk) (2024), where I was supervised by [Daniel Maynard](https://www.maynardlab.co.uk/). Before that I completed a Master's in Operations Management at [Universidad de Chile](https://www.uchile.cl), supervised by [Charles Thraves](https://cthraves.com/). I got my (very long) Industrial Engineering degree at the same university. 
