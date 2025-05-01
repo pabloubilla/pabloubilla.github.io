@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 01-05-2025
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I'll start my PhD in INRIA Montpellier (someday this year)
