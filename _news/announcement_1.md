@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-I'll start my PhD in INRIA Montpellier (someday this year)
+An announcement might come when something interesting happens...
+
+<!-- I'll start my PhD in INRIA Montpellier (someday this year) -->

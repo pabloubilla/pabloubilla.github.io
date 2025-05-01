@@ -18,11 +18,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Hello!
+<!-- Hello!
 
 I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the
 [EVERGREEN group](https://team.inria.fr/evergreen/) at
-[Inria Montpellier](https://www.inria.fr/en/inria-branch-university-montpellier).
+[Inria Montpellier](https://www.inria.fr/en/inria-branch-university-montpellier). -->
+
+Hello! I'm Pablo.
 
 I'm broadly interested in machine learning, statistics, and operations research. Most of my work has been in related to ecology, society, and political elections. I'm also open to other interesting applications, as well as the more theoretical aspects of these topics.
 
