@@ -1417,3 +1417,79 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+
+
+/* ----------------------------------------
+Some extra stuff I added (and I don't know much about scss)
+----------------------------------------- */
+
+// html {
+//   overflow-y: scroll;
+// }
+
+
+.navbar-nav > .nav-item {
+  margin-left: 1.2rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.navbar {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--global-bg-color) 95%, var(--global-theme-color) 5%) 0%,
+    color-mix(in srgb, var(--global-bg-color) 85%, var(--global-theme-color) 15%) 100%
+  );
+  border-bottom: 2px ridge var(--global-divider-color);
+  // box-shadow: 0 1px 3px rgba(var(--global-highlight-color), 0.05); // You need to define this RGB var
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+.navbar .nav-link {
+  position: relative;
+  display: inline-block;
+  color: var(--global-text-color);
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding-bottom: 4px;
+  line-height: 1.5;
+  min-height: 2.5rem; // prevents bounce on click
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--global-theme-color);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+  pointer-events: none;
+}
+
+.navbar .nav-link:hover::after,
+.navbar .nav-item.active > .nav-link::after {
+  transform: scaleX(1);
+}
+
+.navbar .nav-link:hover {
+  color: var(--global-theme-color);
+}
+
+.navbar .nav-item.active > .nav-link {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
+

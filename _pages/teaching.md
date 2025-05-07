@@ -2,11 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: These are some of the modules I have taught in different forms.
+description:
 nav: true
 nav_order: 6
 ---
 
+
+
+<!-- <!--  -->
 <style>
 .teaching-box {
   background-color: var(--global-bg-color);
@@ -179,6 +182,6 @@ nav_order: 6
       </ul>
     </li>
   </ul>
-</div>
+</div>  
 
-Repeat for other universities -->
+Repeat for other universities --> 
