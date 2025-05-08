@@ -24,13 +24,13 @@ I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the
 [EVERGREEN group](https://team.inria.fr/evergreen/) at
 [Inria Montpellier](https://www.inria.fr/en/inria-branch-university-montpellier). -->
 
-Hello! I'm Pablo.
+Hola! I'm Pablo.
 
-I'm broadly interested in machine learning, statistics, and operations research. I'm particularly interested on applications to ecology and biodiversity, but I have also worked on problems related to vehicle routing, political elections, surveys, and pricing. I'm also open to other interesting applications, as well as the more theoretical aspects of these topics.
+I'm broadly interested in machine learning, statistics, and operations research. At the moment, I'm working on applications in ecology and biodiversity, but I've also tackled problems related to vehicle routing, political elections, surveys, and pricing. I'm always open to other interesting applications, as well as the more theoretical sides of these fields.
 
-I completed an MSc in Ecology & Data Science at
-[University College London (UCL)](https://www.ucl.ac.uk) (2024), where I was supervised by [Daniel Maynard](https://www.maynardlab.co.uk/). Before that I completed a Master's in Operations Management at [Universidad de Chile](https://www.uchile.cl), supervised by [Charles Thraves](https://cthraves.com/). I got my (very long) Industrial Engineering degree at the same university. 
+I was formed as an Industrial Engineer at [Universidad de Chile](https://www.uchile.cl), where I became interested in optimization and probabilities (ofc). That led me to pursue a Master’s in Operations Management, supervised by [Charles Thraves](https://cthraves.com/). I've always been fascinated by the natural world and its species, so to bring that passion into my academic work, I went on to do a second Master's in Ecology & Data Science at [University College London (UCL)](https://www.ucl.ac.uk) (2024), supervised by [Daniel Maynard](https://www.maynardlab.co.uk/).
 
-When I’m not working, I enjoy playing piano & guitar, and rock climbing. I am also trying to learn French right now.
+Outside of research stuff, I’ve always enjoyed playing music, and somewhat recently I’ve taken up rock climbing. I'm also learning extremely basic French (*je suis un garçon*).
+
 
 Feel free to reach out at: pabloubilla [at] ug [dot] uchile [dot] cl
