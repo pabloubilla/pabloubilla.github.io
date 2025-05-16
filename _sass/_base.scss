@@ -397,13 +397,69 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
+// .social {
+//   text-align: center;
+
+//   .contact-icons {
+//     font-size: 2.5rem; // added by pablo: size of icons
+//     margin-top: 4rem; // added by pablo: drops them down
+
+//     a {
+//       margin: 0 0.75rem; // added by pablo: padding between icons
+
+//       img {
+//         width: 3.2rem;
+//         height: 3.2rem;
+//         margin-bottom: 1rem;
+//       }
+
+//       svg {
+//         width: 3.5rem;
+//         height: 4rem;
+//         margin-bottom: 0.5rem;
+
+//         image {
+//           width: 3.5rem;
+//           height: 3.5rem;
+//         }
+//       }
+
+//       i::before {
+//         color: var(--global-text-color);
+//         transition-property: all 0.2s ease-in-out;
+//       }
+
+//       &:hover {
+//         text-decoration: none;
+
+//         i::before {
+//           color: var(--global-theme-color);
+//         }
+//       }
+//     }
+//   }
+
+//   .contact-note {
+//     font-size: 0.8rem;
+//   }
+// }
+
+
 .social {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem; // size of icons
+    margin-top: 4rem; // drops them down
 
     a {
+      margin: 0 0.3rem; // spacing between icons
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.5rem;
+      height: 3.5rem;
+
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -423,7 +479,9 @@ ul.task-list input[type="checkbox"] {
 
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        font-size: 1em;
+        transition: transform 0.2s ease, color 0.2s ease;
+        display: inline-block;
       }
 
       &:hover {
@@ -431,13 +489,10 @@ ul.task-list input[type="checkbox"] {
 
         i::before {
           color: var(--global-theme-color);
+          transform: scale(1.2); // smooth zoom effect
         }
       }
     }
-  }
-
-  .contact-note {
-    font-size: 0.8rem;
   }
 }
 
