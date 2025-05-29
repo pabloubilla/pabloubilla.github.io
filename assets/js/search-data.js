@@ -26,7 +26,12 @@ ninja.data = [{
         },{id: "news-an-announcement-might-come-when-something-interesting-happens",
           title: 'An announcement might come when something interesting happens…',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-a-much-longer-post-trying-the-functionality",
+          title: 'A much longer post trying the functionality.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
