@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-an-announcement-might-come-when-something-interesting-happens",
-          title: 'An announcement might come when something interesting happens…',
-          description: "",
-          section: "News",},{id: "news-a-much-longer-post-trying-the-functionality",
-          title: 'A much longer post trying the functionality.',
+        },{id: "news-a-much-longer-post-trying-the-functionality",
+          title: 'A much longer post trying the functionality',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{
+            },},{id: "news-our-r-package-fastei-is-now-available-in-cran",
+          title: 'Our R package fastei is now available in CRAN',
+          description: "",
+          section: "News",},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
