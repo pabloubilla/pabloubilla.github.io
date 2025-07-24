@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 01-05-2025
+date: 01-06-2025
 inline: true
 related_posts: false
 ---
 
-An announcement might come when something interesting happens...
+Our R package [fastei](https://cran.r-project.org/web/packages/fastei/index.html) is now available in CRAN
 
 <!-- I'll start my PhD in INRIA Montpellier (someday this year) -->

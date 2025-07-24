@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 29-05-2025
-title: A much longer post trying the functionality.
+title: A much longer post trying the functionality
 inline: false
 related_posts: false
 ---
@@ -10,29 +10,10 @@ related_posts: false
 
 ---
 
-I have been working at AIRNGURU for a bit. Since October 2024.
-Working is... ok
-We'll see what happens next.
+This is a longer post format which would make sense if I had something to write about...
 
-More text
+Latex: 
 
-More text
-
-More text
-
-More text
-
-More text
-
-More text
-
-More text
-
-## Some markdown
-
-Some latex: 
-
-$$x_i + x_j = 2$$
-
+$E(X) = \sum_{x \in R_{X}}P(x) \cdot x$
 
 ---
