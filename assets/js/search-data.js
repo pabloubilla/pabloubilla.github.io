@@ -29,9 +29,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-starting-my-phd-at-inria-montpellier",
           title: 'I will be starting my PhD at INRIA Montpellier!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{
+          section: "News",},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
