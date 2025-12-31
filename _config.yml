@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: pablo
-middle_name: ubilla
-last_name: pavez
+first_name: Pablo
+middle_name: Ubilla
+last_name: Pavez
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
@@ -53,7 +53,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
