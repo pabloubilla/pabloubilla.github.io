@@ -29,6 +29,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-starting-my-phd-at-inria-montpellier",
           title: 'I will be starting my PhD at INRIA Montpellier!',
           description: "",
+          section: "News",},{id: "news-",
+          title: '',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
