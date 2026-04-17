@@ -35,4 +35,4 @@ I was formed as an Industrial Engineer at [Universidad de Chile](https://www.uch
 
 Outside of research stuff, I enjoy creating and playing music, bouldering, and eating lettuce. J'essaie d'apprendre le français.
 
-Feel free to reach out at: pabloubilla [at] ug [dot] uchile [dot] cl
+Feel free to reach out at: pablo[dot]ubilla[hyphen]pavez[at]inria[dot]fr
