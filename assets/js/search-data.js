@@ -32,6 +32,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-wrote-a-report-on-the-last-chilean-presidential-elections",
           title: 'We wrote a report on the last Chilean presidential elections',
           description: "",
+          section: "News",},{id: "news-work-from-my-msc-thesis-at-ucl-has-been-published-at-plos-computational-biology-this-is-my-first-published-paper",
+          title: 'Work from my MSc thesis at UCL has been published at PLOS Computational...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
