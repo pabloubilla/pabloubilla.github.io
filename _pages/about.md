@@ -27,7 +27,9 @@ I'm Pablo Ubilla Pavez, and I'm about to start my PhD with the
 
 Hola, Hello, Bonjour! I'm Pablo (or Pavlo).
 
-I’m interested in machine learning and statistics. In particular, I am interested on developing methods that help us undertand and protect our natural world. My main focus is on ecology and biodiversity, but I’ve also worked on projects in elections, surveys, pricing, and vehicle routing.
+I’m broadly interested in machine learning and statistics. More specifically, I am interested in developing methods that help us undertand and protect our natural world. 
+
+<!-- Even though my main focus is ecology and biodiversity, I'm also interested in other applications, and I’ve worked on projects in elections, surveys, pricing, and vehicle routing. -->
 
 Right now, I am doing a PhD at [Inria Montpellier](https://www.inria.fr/en/inria-branch-university-montpellier) with the [EVERGREEN group](https://team.inria.fr/evergreen/), supervised by [Diego Marcos](https://sites.google.com/view/diego-marcos/home). I am working on machine learning methods applied to species distribution models.
 
