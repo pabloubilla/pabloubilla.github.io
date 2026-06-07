@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-work-from-my-msc-thesis-at-ucl-has-been-published-at-plos-computational-biology-this-is-my-first-published-paper",
           title: 'Work from my MSc thesis at UCL has been published at PLOS Computational...',
           description: "",
+          section: "News",},{id: "news-we-gave-a-tutorial-on-deep-species-distribution-models-with-diego-at-the-ai-for-ecologists-training-course-from-frb-cesab",
+          title: 'We gave a tutorial on Deep Species Distribution Models with Diego at the...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
