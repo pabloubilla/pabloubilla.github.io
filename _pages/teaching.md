@@ -23,6 +23,15 @@ nav_order: 6
 
 <div class="teaching-box" markdown="1">
 
+### FRB-CESAB training course
+
+**AI for ecologists**: [Introduction to deep SDMs](https://ai-ecol.github.io/chapters/day4_courses_pdf.html) (June 2026)
+
+</div>
+
+
+<div class="teaching-box" markdown="1">
+
 ### University College London
 
 **Postgraduate Teaching Assistant** (2023–2024)  
