@@ -1,14 +1,19 @@
 ---
 ---
 
-@article{thraves2024fast,
-  title={An Accurate, Fast, and Scalable Ecological Inference Algorithm for the R×C case},
-  author={Thraves, Charles and Ubilla, Pablo and Hermosilla, Daniel},
-  journal={Available at SSRN 4832834},
-  year={2024},
+@article{ubilla2026accurate,
+  doi = {https://doi.org/10.1007/s11222-026-10946-1},
+  title={An accurate, fast, and scalable ecological inference algorithm for the R$\times$ C case},
+  author={Ubilla Pavez, Pablo and Hermosilla, Daniel and Thraves, Charles},
+  journal={Statistics and Computing},
+  volume={36},
+  number={4},
+  pages={195},
+  year={2026},
+  publisher={Springer},
+  preview = {em-pdf.png},
   bibtex_show={true},
-  doi={https://dx.doi.org/10.2139/ssrn.4832834},
-  preview={EL-BELLOTO.png}
+  abstract = {The R$\times$ C ecological inference problem is widely known to be challenging. While most recent approaches rely on linear programming, maximum-entropy formulations, or Bayesian models, direct maximization of the likelihood has received limited attention due to the computational challenges of solving the associated optimization problem. We formulate the problem with the EM algorithm to maximize the likelihood given the observed data. We show that the M-step admits a closed-form solution, and we derive an explicit recursion for the exact E-step that remains computationally feasible only for small-sized instances. To scale beyond these instances, we introduce three polynomial-time approximation methods for the E-step based on multivariate normal approximations and a single multinomial representation. Projection techniques are used to enforce the accounting identity of the local and global probabilities, and a joint EM algorithm is introduced to obtain congruent estimates in both directions of the contingency structure. We evaluate the proposed methods against state-of-the-art alternatives using both real and simulated datasets. Across all settings, our approaches achieve superior accuracy, reducing the error in real election data by 17.9% relative to the best competing method. Moreover, the proposed methods run several orders of magnitude faster than existing techniques and remain computationally feasible for large-scale instances. All methods are implemented in the R package fastei.}
 }
 
 @article{ubillapavez2026functional,
@@ -21,7 +26,6 @@
     month = {05},
     volume = {22},
     bibtex_show={true},
-    url = {https://doi.org/10.1371/journal.pcbi.1014278},
     pages = {1-25},
     abstract = {Functional diversity is a fundamental aspect of community structure and composition, reflecting diversity and redundancy in ecological niches, functional roles, and environmental responses among species within a community. Despite its growing importance for quantifying ecosystem-level biodiversity, existing functional diversity metrics remain difficult to calculate and interpret, hindering their adoption and application beyond the scientific realm. One potential solution to this problem is to categorize species into functional groups based on their traits, which provides a simple, intuitive categorization of functional diversity that allows for the application of traditional species-based metrics. The functional-group approach, however, has several challenges that have limited its adoption, namely, the difficulty in identifying robust functional clusters, which can vary substantially due to trait variability, measurement error, and trait correlation. Here, to address these challenges, we present a multi-step consensus clustering method that integrates trait uncertainty and correlation into the classification of species into functional groups. Our approach proceeds in four main steps: (1) (re)sample trait data from an underlying distribution or with measurement error, (2) fit a Gaussian Mixture Model (to account for correlation) to each resample, (3) build a consensus matrix quantifying how often species pairs are grouped together across the noisy trait sample, and (4) apply traditional hierarchical clustering to this matrix and select the final groups. As a case study of this approach, we apply this method to a global dataset of 47,828 tree species using 18 traits, identifying 42 functional groups with distinct trait patterns and varying degrees of stability. We show how the resulting groups reflect underlying ecological trade-offs and phylogenetic structure, and we demonstrate how traditional diversity metrics (richness and Simpson’s Index) can be applied to these functional groups to provide intuitive measures of functional group richness and functional redundancy. Collectively, this framework presents a scalable, interpretable approach for quantifying functional groups that embraces trait correlation and trait uncertainty, allowing for repeatable and intuitive quantification of functional biodiversity that can aid its adoption in biodiversity assessments by conservation and restoration organisations.},
     number = {5},
