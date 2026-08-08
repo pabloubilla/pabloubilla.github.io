@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-gave-a-tutorial-on-deep-species-distribution-models-with-diego-at-the-ai-for-ecologists-training-course-from-frb-cesab",
           title: 'We gave a tutorial on Deep Species Distribution Models with Diego at the...',
           description: "",
+          section: "News",},{id: "news-our-work-an-accurate-fast-and-scalable-ecological-inference-algorithm-for-the-r-times-c-case-is-now-published-in-statistcs-and-comptuing-this-was-based-on-my-master-thesis-at-universidad-de-chile",
+          title: 'Our work “An accurate, fast, and scalable ecological inference algorithm for the $R\times...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
