@@ -26,18 +26,36 @@ $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1e1e2a;
+// Neutral charcoal (kept slightly desaturated-green rather than blue/purple
+// tinted) so it sits comfortably next to the forest-green accent below.
+$grey-color-dark: #1a1e1b;
 $slate-grey-color: #092541 !default;
-$grey-900: #212529;
+$grey-900: #212823;
 
 $white-color: #ffffff !default;
 $beige-color: #f3f2ed !default;
 $black-color: #210202 !default;
 
+// Brand accent: a deep forest green in light mode, a brighter sage/mint for
+// legibility on dark backgrounds. Used consistently as the single accent hue
+// across both themes instead of swapping hue between light/dark.
+$forest-green: #2f5d46 !default;
+$forest-green-bright: #7fbf9e !default;
+
 // Theme colors
 
 $code-bg-color-light: #f6e9d1 !default;
-$code-bg-color-dark: #200315 !default;
+$code-bg-color-dark: #23291f !default;
+
+// Shared corner radius tokens (cards, buttons, inputs, chips, etc.)
+$radius-sm: 6px !default;
+$radius-md: 10px !default;
+$radius-lg: 16px !default;
+
+// Typography
+$font-family-heading: "Fraunces", Georgia, serif;
+$font-family-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-mono: "IBM Plex Mono", ui-monospace, monospace;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
