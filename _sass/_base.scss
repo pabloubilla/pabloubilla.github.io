@@ -3,17 +3,20 @@
  ******************************************************************************/
 
 // Typography
+//
+// Editorial pairing: a serif for headings (warmth, a bit of personality)
+// and a clean humanist sans for body copy (readability at length).
+// A monospace is kept for code and a few small technical accents
+// (nav CV/search hints, CV date column, profile "more info" block).
+// Change the font stacks in one place: $font-family-heading /
+// $font-family-body / $font-family-mono in _variables.scss.
 
-// space mono
-body { font-family: 'Space Mono', monospace; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Orbitron', sans-serif; }
-
-// ibm plex mono + archivo black
-// body { font-family: 'IBM Plex Mono', monospace; }
-// h1, h2, h3, h4, h5, h6 { font-family: 'Archivo Black', sans-serif; }
-
-// body { font-family: 'Open Sans', sans-serif; }
-// h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+body { font-family: $font-family-body; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
 
 p,
 h1,
@@ -70,6 +73,7 @@ table.table a {
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
+  border-radius: 0 $radius-sm $radius-sm 0;
   margin: 1.5em 0;
   padding: 1em;
   font-size: 1.2rem;
@@ -179,6 +183,10 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: $radius-md;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   .card-img {
     width: 100%;
@@ -191,6 +199,11 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+
+  &:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
   }
 }
 
@@ -216,7 +229,7 @@ ul.task-list input[type="checkbox"] {
     font-size: 0.85rem;
     line-height: 1.3;
     opacity: 0.85;
-    font-family: monospace;
+    font-family: $font-family-mono;
     white-space: pre-line;
 
     p {
@@ -265,8 +278,10 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: color-mix(in srgb, var(--global-bg-color) 90%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
 }
 
 .navbar .dropdown-menu {
@@ -304,6 +319,8 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: $font-family-heading;
+    font-size: 1.15rem;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -412,6 +429,11 @@ ul.task-list input[type="checkbox"] {
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+#search-toggle .nav-link {
+  font-family: $font-family-mono;
+  font-size: 0.75rem;
 }
 
 // Social (bottom)
@@ -607,6 +629,8 @@ footer.sticky-bottom {
 
 .date-column {
   width: 75px;
+  font-family: $font-family-mono;
+  font-size: 0.85rem;
   transform: translateX(-15px) translateY(-5px);
 }
 
@@ -700,6 +724,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      border-radius: $radius-sm;
       padding: 0.75rem 1.15rem;
 
       &:hover {
@@ -812,6 +837,8 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          border-radius: $radius-sm;
+          padding: 0.1rem 0.4rem;
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
 
@@ -865,15 +892,18 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+          border-radius: $radius-sm;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-hover-text-color);
             border-color: var(--global-theme-color);
+            background-color: var(--global-theme-color);
           }
         }
         a.award.btn {
@@ -953,8 +983,9 @@ figure.highlight {
 pre {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 6px;
+  border-radius: $radius-sm;
   padding: 6px 12px;
+  font-family: $font-family-mono;
 
   pre,
   code {
@@ -968,8 +999,9 @@ pre {
 code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 3px 3px;
+  font-family: $font-family-mono;
 }
 
 // Transitioning Themes
@@ -1510,20 +1542,6 @@ Some extra stuff I added (and I don't know much about scss)
     margin-left: 0;
   }
 }
-
-.navbar {
-  background: linear-gradient(
-    to bottom,
-    color-mix(in srgb, var(--global-bg-color) 95%, var(--global-theme-color) 5%) 0%,
-    color-mix(in srgb, var(--global-bg-color) 85%, var(--global-theme-color) 15%) 100%
-  );
-  border-bottom: 2px ridge var(--global-divider-color);
-  // box-shadow: 0 1px 3px rgba(var(--global-highlight-color), 0.05); // You need to define this RGB var
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-
 
 
 .navbar .nav-link {

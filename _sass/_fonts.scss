@@ -1,0 +1,60 @@
+/*******************************************************************************
+ * Self-hosted typography.
+ *
+ * Fonts are bundled locally (assets/webfonts/) rather than pulled from the
+ * Google Fonts CDN: one less third-party request, no render-blocking network
+ * round trip, and nothing breaks if fonts.googleapis.com is ever unreachable.
+ * All three are open source (SIL OFL) and safe to redistribute.
+ *
+ * Fraunces and Inter are true variable fonts, so a single file covers their
+ * whole weight range (and, for Fraunces, its optical-size axis too — the
+ * browser adjusts it automatically based on font-size, no extra CSS needed).
+ ******************************************************************************/
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("#{$fa-font-path}/fraunces-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("#{$fa-font-path}/fraunces-italic-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("#{$fa-font-path}/inter-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("#{$fa-font-path}/ibm-plex-mono-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("#{$fa-font-path}/ibm-plex-mono-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("#{$fa-font-path}/ibm-plex-mono-600.woff2") format("woff2");
+}

@@ -1,0 +1,13 @@
+fraunces-variable.woff2, fraunces-italic-variable.woff2
+  Fraunces by Undercase Type Foundry — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Fraunces
+
+inter-variable.woff2
+  Inter by Rasmus Andersson — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Inter
+
+ibm-plex-mono-400.woff2, ibm-plex-mono-500.woff2, ibm-plex-mono-600.woff2
+  IBM Plex Mono by IBM — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/IBM+Plex+Mono
+
+Full license text: https://openfontlicense.org/
