@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: chile_0.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
   # more_info: Picture taken in Cascada de Tocoihue
 
